@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace the DMV test!</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">LOGO</a>
+        <nav class="nav" role="navigation" aria-label="main menu">
+            <a href="../pages/index.html" class="active">Home</a>
+            <a href="#">Practice test</a>
+            <a href="../pages/contact.html">Contact us</a>
+        </nav>
+    </header>
+    <main class="test_page">
+        <section class="test_quiz">
+            <div class="quiz-container">
+                <h1> Quiz </h1>
+                <form class="quiz-form">
+                    <div class="question">
+                        <label for="question1">1. Blablablabal</label>
+                        <select id="question1" name="question1">
+                            <option value="value1">answer1</option>
+                            <option value="value2">answer2</option>
+                            <option value="value">answer4</option>
+                        </select>
+                    </div>
+                    <div class="question">
+                        <label>2. Which of the following are correct?</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="question2" value="example1"> Example1</label>
+                            <label><input type="checkbox" name="question2" value="example2"> Example2</label>
+                            <label><input type="checkbox" name="question2" value="example3"> Example3</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label>3. What is the minimum suspension for a JOL violation?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="question3" value="time1">3 months</label>
+                            <label><input type="radio" name="question3" value="time2">6 monrhs</label>
+                            <label><input type="radio" name="question3" value="time3">1 year</label>
+                        </div>
+                    </div>
+                    <button id="btn_sub" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</html>
